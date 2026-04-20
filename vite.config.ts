@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === 'build' ? '/PawPals/' : '/',
+  base: command === 'build' ? './' : '/',
   build: {
     rollupOptions: {
       input: {
