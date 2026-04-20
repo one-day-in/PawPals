@@ -8,18 +8,18 @@
   height: 52px;
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: var(--space-22);
 }
 
 .app-header__mobile { display: none; }
 
-.app-header__logo { font-size: 18px; font-weight: 700; color: var(--blue-600); }
-.app-header__nav { display: flex; gap: 24px; }
+.app-header__logo { font-size: var(--font-18); font-weight: 700; color: var(--blue-600); }
+.app-header__nav { display: flex; gap: var(--space-24); }
 .app-header__nav-item {
   border: 0;
   background: transparent;
   color: var(--font-secondary);
-  font-size: 13px;
+  font-size: var(--font-13);
   font-weight: 500;
   padding: 0;
   cursor: pointer;
@@ -31,19 +31,19 @@
 }
 .app-header__spacer { flex: 1; }
 
-.app-header__actions { display: flex; align-items: center; gap: 12px; }
+.app-header__actions { display: flex; align-items: center; gap: var(--space-12); }
 
 .app-header__search-wrap {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: var(--space-6);
   width: 200px;
   height: 32px;
-  border-radius: 6px;
+  border-radius: var(--radius-6);
   background: var(--bg-page);
-  padding: 0 10px;
+  padding: 0 var(--space-10);
   color: var(--dark-400);
-  font-size: 12px;
+  font-size: var(--font-12);
 }
 .app-header__search-icon { color: var(--dark-400); }
 .app-header__search {
@@ -52,15 +52,15 @@
   outline: none;
   background: transparent;
   color: var(--dark-400);
-  font-size: 12px;
+  font-size: var(--font-12);
 }
 
 .app-header__auth,
 .app-header__signup {
   border: 0;
-  border-radius: 6px;
-  padding: 6px 14px;
-  font-size: 13px;
+  border-radius: var(--radius-6);
+  padding: var(--space-6) var(--space-14);
+  font-size: var(--font-13);
   cursor: pointer;
 }
 .app-header__auth { background: transparent; color: var(--font-secondary); font-weight: 500; }
@@ -72,24 +72,24 @@
   .app-header__inner {
     height: 48px;
     gap: 0;
-    padding: 0 16px;
+    padding: 0 var(--space-16);
   }
 
   .app-header__mobile {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: var(--space-8);
   }
 
   .app-header__mobile--company {
     display: grid;
     grid-template-columns: 28px 1fr auto;
-    gap: 8px;
+    gap: var(--space-8);
   }
 
   .app-header__mobile-title {
-    font-size: 16px;
+    font-size: var(--font-16);
     font-weight: 600;
   }
 
@@ -102,7 +102,7 @@
     margin-left: auto;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: var(--space-6);
   }
 
   .app-header__mobile--company .app-header__mobile-actions {
@@ -115,7 +115,7 @@
     width: 28px;
     height: 28px;
     border: 0;
-    border-radius: 6px;
+    border-radius: var(--radius-6);
     background: transparent;
     display: inline-flex;
     align-items: center;
@@ -127,9 +127,9 @@
     border: 0;
     background: transparent;
     color: var(--blue-600);
-    font-size: 13px;
+    font-size: var(--font-13);
     font-weight: 500;
-    padding: 0 2px;
+    padding: 0 var(--space-2);
     cursor: pointer;
   }
 

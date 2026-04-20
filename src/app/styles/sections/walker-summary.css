@@ -1,6 +1,6 @@
 .identity {
   display: flex;
-  gap: 12px;
+  gap: var(--space-12);
 }
 
 .identity__avatar {
@@ -13,96 +13,96 @@
 .identity__name-row {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: var(--space-10);
 }
 
 .identity__name {
   margin: 0;
-  font-size: 20px;
+  font-size: var(--font-20);
   font-weight: 700;
 }
 
 .badge-online {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  border-radius: 999px;
+  gap: var(--space-6);
+  border-radius: var(--radius-pill);
   background: var(--green-100);
   color: var(--green-700);
-  padding: 4px 8px;
-  font-size: 10px;
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--font-10);
   font-weight: 700;
 }
 
 .identity__meta {
-  margin-top: 4px;
-  font-size: 12px;
+  margin-top: var(--space-4);
+  font-size: var(--font-12);
   color: var(--font-secondary);
 }
 
 .identity__rating-row {
-  margin-top: 6px;
+  margin-top: var(--space-6);
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: var(--space-8);
   color: var(--font-secondary);
-  font-size: 12px;
+  font-size: var(--font-12);
 }
 
 .activity-banner {
-  margin-top: 10px;
+  margin-top: var(--space-10);
   display: flex;
-  gap: 8px;
+  gap: var(--space-8);
   align-items: center;
-  border-radius: 10px;
+  border-radius: var(--radius-10);
   background: var(--orange-50);
   color: var(--orange-900);
-  font-size: 10px;
+  font-size: var(--font-10);
   font-weight: 500;
   height: 26px;
-  padding: 0 10px;
+  padding: 0 var(--space-10);
 }
 
 .kpi-grid {
-  margin-top: 10px;
+  margin-top: var(--space-10);
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .kpi {
   text-align: center;
-  border-radius: 10px;
+  border-radius: var(--radius-10);
   background: var(--blue-50);
-  padding: 8px;
+  padding: var(--space-8);
 }
 
 .kpi__value {
   display: block;
   color: var(--blue-600);
-  font-size: 18px;
+  font-size: var(--font-18);
   font-weight: 700;
 }
 
 .kpi__label {
   color: var(--font-tertiary);
-  font-size: 10px;
+  font-size: var(--font-10);
 }
 
 .pill-list {
-  margin-top: 10px;
+  margin-top: var(--space-10);
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .pill {
   display: inline-flex;
   align-items: center;
-  padding: 6px 8px;
-  border-radius: 999px;
+  padding: var(--space-6) var(--space-8);
+  border-radius: var(--radius-pill);
   background: var(--blue-50);
   color: var(--blue-600);
-  font-size: 10px;
+  font-size: var(--font-10);
   font-weight: 600;
 }

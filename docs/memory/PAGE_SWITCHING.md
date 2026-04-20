@@ -1,15 +1,16 @@
-# Page Switching (No Router)
+# Multi-Page Entry (No Router)
 
-Current development mode uses local state switching in `src/app/App.tsx`.
+Current mode uses separate HTML entry points (Vite multi-page) instead of local state switching.
 
 Available pages:
-- walker profile
-- company profile
-- owner profile
+- `/walker.html`
+- `/company.html`
+- `/owner.html`
 
-Switch controls:
-- Header nav buttons (`Find Sitters`, `Companies`, `Owner`)
-- Local QA switcher buttons above page content
+Entry files:
+- `src/main.tsx` -> walker
+- `src/main-company.tsx` -> company
+- `src/main-owner.tsx` -> owner
 
-Reason:
-- Fast visual QA across all 3 desktop pages without routing complexity.
+Navigation:
+- Header buttons navigate by URL to dedicated page entries.

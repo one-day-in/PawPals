@@ -2,21 +2,21 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-20);
 }
 
 .company-identity-card {
-  padding: 24px;
+  padding: var(--space-24);
   display: flex;
-  gap: 16px;
+  gap: var(--space-16);
   align-items: flex-start;
-  border-radius: 12px;
+  border-radius: var(--radius-12);
 }
 
 .company-logo {
   width: 72px;
   height: 72px;
-  border-radius: 8px;
+  border-radius: var(--radius-8);
   background: linear-gradient(135deg, var(--gray-200), var(--gray-300));
 }
 
@@ -24,48 +24,48 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: var(--space-6);
 }
 
 .company-name-row {
   display: flex;
-  gap: 10px;
+  gap: var(--space-10);
   align-items: center;
 }
 
 .company-name-row h1 {
   margin: 0;
-  font-size: 22px;
+  font-size: var(--font-22);
   font-weight: 700;
 }
 
 .company-verified-badge {
-  border-radius: 12px;
-  padding: 4px 10px;
-  font-size: 11px;
+  border-radius: var(--radius-12);
+  padding: var(--space-4) var(--space-10);
+  font-size: var(--font-11);
   font-weight: 700;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: var(--space-5);
 }
 
 .company-subtitle {
   margin: 0;
-  font-size: 13px;
+  font-size: var(--font-13);
   color: var(--font-secondary);
 }
 
 .company-stats-row {
   display: flex;
-  gap: 8px;
+  gap: var(--space-8);
   align-items: center;
   flex-wrap: wrap;
-  font-size: 11px;
+  font-size: var(--font-11);
   color: var(--font-secondary);
 }
 
 .company-stats-row strong {
-  font-size: 13px;
+  font-size: var(--font-13);
   color: var(--font-primary);
 }
 
@@ -75,68 +75,68 @@
 
 .company-highlights-row {
   display: flex;
-  gap: 6px;
+  gap: var(--space-6);
   flex-wrap: wrap;
 }
 
 .company-pill {
-  border-radius: 12px;
+  border-radius: var(--radius-12);
   background: var(--blue-50);
   color: var(--blue-600);
-  font-size: 10px;
+  font-size: var(--font-10);
   font-weight: 600;
-  padding: 4px 10px;
+  padding: var(--space-4) var(--space-10);
 }
 
 .company-cta-group {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .company-note-card {
   background: var(--blue-50);
   border: 1px solid var(--blue-100);
-  border-radius: 8px;
-  padding: 10px 16px;
+  border-radius: var(--radius-8);
+  padding: var(--space-10) var(--space-16);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: var(--space-10);
 }
 
 .note-main {
   margin: 0;
   color: var(--blue-600);
-  font-size: 12px;
+  font-size: var(--font-12);
   font-weight: 500;
 }
 
 .note-side {
   margin: 0 0 0 auto;
   color: var(--font-tertiary);
-  font-size: 11px;
+  font-size: var(--font-11);
 }
 
 .company-tabs-card {
-  padding: 5px;
-  border-radius: 12px;
+  padding: var(--space-5);
+  border-radius: var(--radius-12);
 }
 
 .company-tabs-row {
   display: flex;
-  gap: 4px;
+  gap: var(--space-4);
 }
 
 .company-tab {
   flex: 1;
   border: 0;
-  border-radius: 8px;
+  border-radius: var(--radius-8);
   background: transparent;
   color: var(--font-tertiary);
-  font-size: 13px;
+  font-size: var(--font-13);
   font-weight: 500;
-  padding: 8px 0;
+  padding: var(--space-8) 0;
 }
 
 .company-tab.is-active {
@@ -147,43 +147,43 @@
 
 .company-columns {
   display: flex;
-  gap: 16px;
+  gap: var(--space-16);
 }
 
 .company-left-col {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--space-16);
 }
 
 .company-right-col {
   width: 340px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--space-16);
 }
 
 .company-provider-list {
-  margin-top: 10px;
+  margin-top: var(--space-10);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .company-provider-row {
   background: var(--bg-page);
-  border-radius: 8px;
-  padding: 12px;
+  border-radius: var(--radius-8);
+  padding: var(--space-12);
   display: flex;
-  gap: 12px;
+  gap: var(--space-12);
   align-items: center;
 }
 
 .avatar {
   width: 40px;
   height: 40px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   display: inline-block;
 }
 
@@ -207,26 +207,26 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: var(--space-2);
 }
 
 .name-row {
   display: flex;
-  gap: 6px;
+  gap: var(--space-6);
   align-items: center;
-  font-size: 10px;
+  font-size: var(--font-10);
   color: var(--font-tertiary);
 }
 
 .name-row strong {
   color: var(--font-primary);
-  font-size: 12px;
+  font-size: var(--font-12);
 }
 
 .status-dot {
   width: 7px;
   height: 7px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   display: inline-block;
 }
 
@@ -241,19 +241,19 @@
 .company-provider-info p {
   margin: 0;
   color: var(--font-secondary);
-  font-size: 10px;
+  font-size: var(--font-10);
 }
 
 .tags {
   display: flex;
-  gap: 6px;
+  gap: var(--space-6);
   flex-wrap: wrap;
 }
 
 .tag {
-  border-radius: 10px;
-  padding: 2px 8px;
-  font-size: 9px;
+  border-radius: var(--radius-10);
+  padding: var(--space-2) var(--space-8);
+  font-size: var(--font-9);
   font-weight: 600;
 }
 
@@ -280,27 +280,27 @@
 .company-provider-right {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .company-provider-right strong {
-  font-size: 11px;
+  font-size: var(--font-11);
 }
 
 .avail {
-  border-radius: 10px;
-  padding: 3px 8px;
+  border-radius: var(--radius-10);
+  padding: var(--space-3) var(--space-8);
   display: inline-flex;
-  gap: 4px;
+  gap: var(--space-4);
   align-items: center;
-  font-size: 10px;
+  font-size: var(--font-10);
   font-weight: 600;
 }
 
 .avail span {
   width: 6px;
   height: 6px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: currentColor;
 }
 
@@ -317,71 +317,71 @@
 .company-link {
   color: var(--blue-600);
   text-decoration: none;
-  font-size: 12px;
+  font-size: var(--font-12);
   font-weight: 500;
 }
 
 .company-body-text {
-  margin: 10px 0;
+  margin: var(--space-10) 0;
   color: var(--font-secondary);
-  font-size: 12px;
+  font-size: var(--font-12);
   line-height: 1.5;
 }
 
 .guarantees {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: var(--space-12);
 }
 
 .g-card {
   border: 1px solid var(--border-light);
-  border-radius: 8px;
-  padding: 16px;
+  border-radius: var(--radius-8);
+  padding: var(--space-16);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--space-10);
 }
 
 .g-card h3 {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--font-12);
   font-weight: 700;
 }
 
 .g-card p {
   margin: 0;
   color: var(--font-tertiary);
-  font-size: 11px;
+  font-size: var(--font-11);
   line-height: 1.4;
 }
 
 .icon-bg {
   width: 36px;
   height: 36px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--blue-50);
   display: grid;
   place-items: center;
 }
 
 .company-muted-note {
-  margin: 8px 0 0;
+  margin: var(--space-8) 0 0;
   color: var(--font-tertiary);
-  font-size: 10px;
+  font-size: var(--font-10);
   line-height: 1.4;
 }
 
 .media-grid {
-  margin-top: 10px;
+  margin-top: var(--space-10);
   height: 120px;
   display: flex;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .media {
   flex: 1;
-  border-radius: 8px;
+  border-radius: var(--radius-8);
   position: relative;
   overflow: hidden;
 }
@@ -396,12 +396,12 @@
   position: absolute;
   left: 4px;
   bottom: 4px;
-  border-radius: 6px;
+  border-radius: var(--radius-6);
   background: var(--overlay-dark-66);
   color: var(--white);
-  font-size: 8px;
+  font-size: var(--font-8);
   font-weight: 600;
-  padding: 2px 6px;
+  padding: var(--space-2) var(--space-6);
 }
 
 .pricing-card.is-accented {
@@ -409,16 +409,16 @@
 }
 
 .company-chip {
-  border-radius: 10px;
+  border-radius: var(--radius-10);
   background: var(--green-100);
   color: var(--green-600);
-  font-size: 9px;
+  font-size: var(--font-9);
   font-weight: 600;
-  padding: 3px 10px;
+  padding: var(--space-3) var(--space-10);
 }
 
 .price-row {
-  padding: 8px 0;
+  padding: var(--space-8) 0;
   border-bottom: 1px solid var(--border-light);
   display: flex;
   align-items: center;
@@ -430,42 +430,42 @@
 
 .price-row span {
   color: var(--font-secondary);
-  font-size: 13px;
+  font-size: var(--font-13);
 }
 
 .price-row strong {
   margin-left: auto;
-  font-size: 18px;
+  font-size: var(--font-18);
   font-weight: 800;
 }
 
 .price-row .small {
-  font-size: 16px;
+  font-size: var(--font-16);
   font-weight: 700;
 }
 
 .note-blue {
-  border-radius: 6px;
+  border-radius: var(--radius-6);
   background: var(--blue-50);
   color: var(--blue-600);
-  padding: 8px 12px;
+  padding: var(--space-8) var(--space-12);
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 11px;
+  gap: var(--space-6);
+  font-size: var(--font-11);
   font-weight: 500;
 }
 
 .field {
   height: 40px;
   border: 1px solid var(--gray-300);
-  border-radius: 8px;
-  padding: 0 12px;
+  border-radius: var(--radius-8);
+  padding: 0 var(--space-12);
   display: flex;
   align-items: center;
   color: var(--font-primary);
-  font-size: 13px;
-  margin-top: 8px;
+  font-size: var(--font-13);
+  margin-top: var(--space-8);
 }
 
 .field.split {
@@ -476,18 +476,18 @@
 .full {
   width: 100%;
   height: 44px;
-  border-radius: 8px;
-  font-size: 14px;
-  margin-top: 8px;
+  border-radius: var(--radius-8);
+  font-size: var(--font-14);
+  margin-top: var(--space-8);
 }
 
 .area-map {
   width: 100%;
   height: 100px;
-  border-radius: 8px;
+  border-radius: var(--radius-8);
   background: linear-gradient(135deg, var(--dark-400), var(--font-tertiary));
   color: var(--white);
-  font-size: 12px;
+  font-size: var(--font-12);
   font-weight: 600;
   display: grid;
   place-items: center;
@@ -496,54 +496,54 @@
 
 .area-tags {
   display: flex;
-  gap: 6px;
+  gap: var(--space-6);
   flex-wrap: wrap;
-  margin-top: 8px;
+  margin-top: var(--space-8);
 }
 
 .area-tags span {
   background: var(--bg-page);
   border: 1px solid var(--border-light);
-  border-radius: 14px;
+  border-radius: var(--radius-14);
   color: var(--font-secondary);
-  font-size: 11px;
+  font-size: var(--font-11);
   font-weight: 500;
-  padding: 5px 12px;
+  padding: var(--space-5) var(--space-12);
 }
 
 .rating-label {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: var(--space-4);
   color: var(--font-primary);
-  font-size: 11px;
+  font-size: var(--font-11);
   font-weight: 600;
 }
 
 .dist {
-  margin-top: 10px;
+  margin-top: var(--space-10);
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: var(--space-6);
 }
 
 .dist-row {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .dist-row span {
   width: 22px;
   color: var(--font-secondary);
-  font-size: 10px;
+  font-size: var(--font-10);
   font-weight: 600;
 }
 
 .dist-row b {
   width: 28px;
   color: var(--font-tertiary);
-  font-size: 10px;
+  font-size: var(--font-10);
   font-weight: 500;
 }
 
@@ -552,38 +552,38 @@
   -webkit-appearance: none;
   flex: 1;
   height: 8px;
-  border-radius: 4px;
+  border-radius: var(--radius-4);
   border: 0;
   overflow: hidden;
 }
 
 .bar::-webkit-progress-bar {
   background: var(--gray-200);
-  border-radius: 4px;
+  border-radius: var(--radius-4);
 }
 
 .bar::-webkit-progress-value {
   background: var(--amber-500);
-  border-radius: 4px;
+  border-radius: var(--radius-4);
 }
 
 .bar::-moz-progress-bar {
   background: var(--amber-500);
-  border-radius: 4px;
+  border-radius: var(--radius-4);
 }
 
 .quote {
-  margin: 10px 0 0;
+  margin: var(--space-10) 0 0;
   color: var(--font-secondary);
-  font-size: 12px;
+  font-size: var(--font-12);
   font-style: italic;
   line-height: 1.6;
 }
 
 .meta {
-  margin: 8px 0 0;
+  margin: var(--space-8) 0 0;
   color: var(--font-primary);
-  font-size: 11px;
+  font-size: var(--font-11);
   font-weight: 600;
 }
 

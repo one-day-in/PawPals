@@ -1,15 +1,15 @@
 @media (max-width: 900px) {
   .card {
-    border-radius: 8px;
-    padding: 14px;
+    border-radius: var(--radius-8);
+    padding: var(--space-14);
   }
 
   .section-header__title {
-    font-size: 13px;
+    font-size: var(--font-13);
   }
 
   .section-header__link {
-    font-size: 10px;
+    font-size: var(--font-10);
   }
 
   .walker-layout .content-placeholder--right {
@@ -17,7 +17,7 @@
   }
 
   .identity {
-    gap: 10px;
+    gap: var(--space-10);
   }
 
   .identity__avatar {
@@ -26,57 +26,57 @@
   }
 
   .identity__name {
-    font-size: 16px;
+    font-size: var(--font-16);
   }
 
   .badge-online {
-    padding: 3px 8px;
-    font-size: 9px;
+    padding: var(--space-3) var(--space-8);
+    font-size: var(--font-9);
   }
 
   .identity__meta,
   .identity__rating-row {
-    font-size: 11px;
+    font-size: var(--font-11);
   }
 
   .activity-banner {
-    margin-top: 8px;
-    font-size: 9px;
+    margin-top: var(--space-8);
+    font-size: var(--font-9);
     height: 24px;
   }
 
   .kpi-grid {
-    margin-top: 8px;
+    margin-top: var(--space-8);
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 6px;
+    gap: var(--space-6);
   }
 
   .kpi {
-    padding: 6px;
+    padding: var(--space-6);
   }
 
   .kpi__value {
-    font-size: 16px;
+    font-size: var(--font-16);
   }
 
   .kpi__label {
-    font-size: 9px;
+    font-size: var(--font-9);
   }
 
   .pill-list {
-    margin-top: 8px;
-    gap: 6px;
+    margin-top: var(--space-8);
+    gap: var(--space-6);
   }
 
   .pill {
-    font-size: 9px;
-    padding: 5px 8px;
+    font-size: var(--font-9);
+    padding: var(--space-5) var(--space-8);
   }
 
   .walk-item {
     grid-template-columns: 1fr auto;
-    gap: 8px;
-    padding: 10px;
+    gap: var(--space-8);
+    padding: var(--space-10);
   }
 
   .walk-item__thumbs {
@@ -87,29 +87,29 @@
   .walk-item__meta,
   .walk-item__desc,
   .walk-item__side {
-    font-size: 10px;
+    font-size: var(--font-10);
   }
 
   .facts-grid {
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: var(--space-8);
   }
 
   .service-grid {
     grid-template-columns: 1fr;
-    gap: 6px;
+    gap: var(--space-6);
   }
 
   .service-item {
-    padding: 9px;
+    padding: var(--space-9);
   }
 
   .service-item__name {
-    font-size: 12px;
+    font-size: var(--font-12);
   }
 
   .service-item__price {
-    font-size: 14px;
+    font-size: var(--font-14);
   }
 
   .company-item {
@@ -117,7 +117,7 @@
   }
 
   .owner-layout {
-    gap: 12px;
+    gap: var(--space-12);
   }
 
   .owner-mobile-reputation {
@@ -132,11 +132,11 @@
   }
 
   .owner-main-card {
-    padding: 14px;
+    padding: var(--space-14);
   }
 
   .owner-head {
-    gap: 10px;
+    gap: var(--space-10);
   }
 
   .owner-avatar {
@@ -145,94 +145,94 @@
   }
 
   .owner-name {
-    font-size: 16px;
+    font-size: var(--font-16);
   }
 
   .owner-badge {
-    font-size: 9px;
+    font-size: var(--font-9);
   }
 
   .owner-meta,
   .owner-chip {
-    font-size: 11px;
+    font-size: var(--font-11);
   }
 
   .owner-cta-pro {
-    padding: 8px 12px;
+    padding: var(--space-8) var(--space-12);
   }
 
   .owner-cta-pro__title {
-    font-size: 12px;
+    font-size: var(--font-12);
   }
 
   .owner-cta-pro__text {
-    font-size: 9px;
+    font-size: var(--font-9);
   }
 
   .owner-trust-item {
-    font-size: 8px;
+    font-size: var(--font-8);
   }
 
   .owner-pet-chip span {
-    font-size: 10px;
+    font-size: var(--font-10);
   }
 
   .owner-schedule-card {
-    padding: 12px;
+    padding: var(--space-12);
   }
 
   .owner-event,
   .owner-past-event {
-    padding: 10px;
+    padding: var(--space-10);
   }
 
   .owner-event__title,
   .owner-past-event__title {
-    font-size: 12px;
+    font-size: var(--font-12);
   }
 
   .owner-event__time,
   .owner-event__meta,
   .owner-past-event__meta {
-    font-size: 10px;
+    font-size: var(--font-10);
   }
 
   .company-page {
-    gap: 12px;
+    gap: var(--space-12);
   }
 
   .company-identity-card {
-    padding: 14px;
-    gap: 12px;
+    padding: var(--space-14);
+    gap: var(--space-12);
     flex-wrap: wrap;
   }
 
   .company-logo {
     width: 52px;
     height: 52px;
-    border-radius: 10px;
+    border-radius: var(--radius-10);
   }
 
   .company-name-row h1 {
-    font-size: 16px;
+    font-size: var(--font-16);
   }
 
   .company-subtitle {
-    font-size: 12px;
+    font-size: var(--font-12);
   }
 
   .company-stats-row {
-    font-size: 10px;
-    gap: 6px;
+    font-size: var(--font-10);
+    gap: var(--space-6);
   }
 
   .company-stats-row strong {
-    font-size: 12px;
+    font-size: var(--font-12);
   }
 
   .company-pill {
-    font-size: 9px;
-    padding: 4px 8px;
+    font-size: var(--font-9);
+    padding: var(--space-4) var(--space-8);
   }
 
   .company-cta-group {
@@ -244,39 +244,39 @@
   .company-cta-group .btn {
     flex: 1;
     height: 40px;
-    padding: 0 10px;
-    font-size: 12px;
+    padding: 0 var(--space-10);
+    font-size: var(--font-12);
   }
 
   .company-note-card {
-    padding: 10px 12px;
+    padding: var(--space-10) var(--space-12);
     flex-wrap: wrap;
-    gap: 6px;
+    gap: var(--space-6);
   }
 
   .note-main,
   .note-side {
-    font-size: 10px;
+    font-size: var(--font-10);
   }
 
   .company-tabs-card {
-    padding: 4px;
+    padding: var(--space-4);
   }
 
   .company-tab {
-    font-size: 11px;
-    padding: 8px 0;
+    font-size: var(--font-11);
+    padding: var(--space-8) 0;
   }
 
   .company-columns {
     flex-direction: column;
-    gap: 12px;
+    gap: var(--space-12);
   }
 
   .company-right-col,
   .company-left-col {
     width: 100%;
-    gap: 12px;
+    gap: var(--space-12);
   }
 
   .company-right-col {
@@ -284,8 +284,8 @@
   }
 
   .company-provider-row {
-    padding: 10px;
-    gap: 10px;
+    padding: var(--space-10);
+    gap: var(--space-10);
   }
 
   .avatar {
@@ -294,41 +294,41 @@
   }
 
   .name-row strong {
-    font-size: 11px;
+    font-size: var(--font-11);
   }
 
   .company-provider-info p,
   .name-row,
   .company-provider-right strong,
   .avail {
-    font-size: 10px;
+    font-size: var(--font-10);
   }
 
   .tag {
-    font-size: 8px;
-    padding: 2px 6px;
+    font-size: var(--font-8);
+    padding: var(--space-2) var(--space-6);
   }
 
   .price-row span {
-    font-size: 12px;
+    font-size: var(--font-12);
   }
 
   .price-row strong {
-    font-size: 16px;
+    font-size: var(--font-16);
   }
 
   .price-row .small {
-    font-size: 14px;
+    font-size: var(--font-14);
   }
 
   .field {
     height: 38px;
-    font-size: 12px;
+    font-size: var(--font-12);
   }
 
   .full {
     height: 40px;
-    font-size: 13px;
+    font-size: var(--font-13);
   }
 
   .media-grid {
@@ -337,17 +337,13 @@
 
   .area-map {
     height: 92px;
-    font-size: 11px;
+    font-size: var(--font-11);
   }
 }
 
 @media (max-width: 480px) {
   .content-shell__inner {
-    padding: 0 12px;
-  }
-
-  .m-hide-sm {
-    display: none !important;
+    padding: 0 var(--space-12);
   }
 }
 

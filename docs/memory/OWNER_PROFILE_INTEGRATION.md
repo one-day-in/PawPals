@@ -23,4 +23,5 @@ Source mockup imported from:
 - Reuses shared primitives (`Card`, `SectionHeader`, `Badge`).
 
 ## Current app connection
-- `src/app/App.tsx` currently renders `OwnerProfilePage` for active desktop implementation work.
+- `src/app/OwnerPageApp.tsx` renders `OwnerProfilePage`.
+- Entry URL: `/owner.html` (`src/main-owner.tsx`).

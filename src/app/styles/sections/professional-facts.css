@@ -1,12 +1,12 @@
-.facts-grid { margin-top: 8px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.facts-grid { margin-top: var(--space-8); display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-10); }
 .fact-row {
   display: grid;
   grid-template-columns: 16px 80px 1fr;
   align-items: center;
-  gap: 8px;
-  border-radius: 10px;
+  gap: var(--space-8);
+  border-radius: var(--radius-10);
   background: var(--bg-muted);
-  padding: 8px;
+  padding: var(--space-8);
 }
-.fact-row__k { font-size: 11px; color: var(--font-tertiary); }
-.fact-row__v { font-size: 11px; font-weight: 600; }
+.fact-row__k { font-size: var(--font-11); color: var(--font-tertiary); }
+.fact-row__v { font-size: var(--font-11); font-weight: 600; }

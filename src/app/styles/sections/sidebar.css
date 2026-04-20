@@ -1,30 +1,30 @@
 .section-header__title--booking {
-  font-size: 15px;
+  font-size: var(--font-15);
 }
 
 .booking-price {
   margin-left: auto;
-  font-size: 11px;
+  font-size: var(--font-11);
   color: var(--font-tertiary);
 }
 
 .booking-price b {
-  font-size: 18px;
+  font-size: var(--font-18);
   color: var(--blue-600);
 }
 
 .booking-next {
-  margin: 10px 0 0;
-  font-size: 10px;
+  margin: var(--space-10) 0 0;
+  font-size: var(--font-10);
   color: var(--font-secondary);
 }
 
 .booking-recurring {
-  margin-top: 10px;
+  margin-top: var(--space-10);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: var(--font-11);
   color: var(--font-secondary);
 }
 
@@ -32,7 +32,7 @@
   width: 34px;
   height: 18px;
   border: 0;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--gray-300);
   position: relative;
   cursor: pointer;
@@ -45,7 +45,7 @@
   left: 2px;
   width: 14px;
   height: 14px;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   background: var(--white);
   transition: left 0.15s ease;
 }
@@ -60,23 +60,23 @@
 
 .booking-cta {
   width: 100%;
-  margin-top: 10px;
-  font-size: 15px;
+  margin-top: var(--space-10);
+  font-size: var(--font-15);
 }
 
 .booking-actions {
-  margin-top: 8px;
+  margin-top: var(--space-8);
   display: grid;
   grid-template-columns: 1fr 36px 36px;
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .booking-actions__message {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  padding-inline: 10px;
+  gap: var(--space-6);
+  padding-inline: var(--space-10);
 }
 
 .booking-actions__icon {
@@ -90,13 +90,13 @@
 .rating-row {
   display: grid;
   grid-template-columns: 90px 1fr auto;
-  gap: 8px;
+  gap: var(--space-8);
   align-items: center;
-  margin-top: 8px;
+  margin-top: var(--space-8);
 }
 
 .rating-row__label {
-  font-size: 11px;
+  font-size: var(--font-11);
   color: var(--font-secondary);
 }
 
@@ -105,74 +105,74 @@
   -webkit-appearance: none;
   height: 8px;
   width: 100%;
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
   border: 0;
   overflow: hidden;
 }
 
 .rating-row__bar::-webkit-progress-bar {
   background: var(--blue-gray-track);
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
 }
 
 .rating-row__bar::-webkit-progress-value {
   background: var(--blue-600);
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
 }
 
 .rating-row__bar::-moz-progress-bar {
   background: var(--blue-600);
-  border-radius: 999px;
+  border-radius: var(--radius-pill);
 }
 
 .rating-row__value {
-  font-size: 11px;
+  font-size: var(--font-11);
   font-weight: 600;
 }
 
 .service-area-map {
-  margin-top: 8px;
+  margin-top: var(--space-8);
   height: 98px;
-  border-radius: 10px;
+  border-radius: var(--radius-10);
   background: linear-gradient(135deg, var(--gray-300), var(--dark-400));
 }
 
 .service-area-tags {
-  margin-top: 8px;
+  margin-top: var(--space-8);
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: var(--space-6);
 }
 
 .service-area-tag {
-  font-size: 9px;
+  font-size: var(--font-9);
 }
 
 .review-item {
   border-top: 1px solid var(--border-light);
-  margin-top: 8px;
-  padding-top: 8px;
+  margin-top: var(--space-8);
+  padding-top: var(--space-8);
 }
 
 .review-item__top {
-  font-size: 11px;
+  font-size: var(--font-11);
   font-weight: 600;
 }
 
 .review-item__verified {
-  font-size: 10px;
+  font-size: var(--font-10);
   font-weight: 400;
   color: var(--green-500);
 }
 
 .review-item__body {
-  margin: 6px 0;
-  font-size: 11px;
+  margin: var(--space-6) 0;
+  font-size: var(--font-11);
   color: var(--font-secondary);
 }
 
 .review-item__meta {
-  font-size: 10px;
+  font-size: var(--font-10);
   color: var(--font-tertiary);
 }
 
@@ -181,28 +181,28 @@
 }
 
 .media-grid {
-  margin-top: 8px;
+  margin-top: var(--space-8);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .media-grid__item {
   height: 68px;
-  border-radius: 10px;
+  border-radius: var(--radius-10);
   background: var(--gray-200);
 }
 
 .media-grid__labels {
-  margin-top: 6px;
+  margin-top: var(--space-6);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  gap: var(--space-8);
 }
 
 .media-grid__labels span {
   text-align: center;
-  font-size: 9px;
+  font-size: var(--font-9);
   font-weight: 500;
   color: var(--blue-600);
 }
