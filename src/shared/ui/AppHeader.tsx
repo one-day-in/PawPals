@@ -12,7 +12,7 @@ export const AppHeader = ({ activePage = 'walker', onNavigate }: AppHeaderProps)
       return;
     }
 
-    window.location.href = `/${page}.html`;
+    window.location.href = `${import.meta.env.BASE_URL}${page}.html`;
   };
 
   const mobileTitle = activePage === 'walker' ? 'Profile' : activePage === 'company' ? 'Brooklyn Paws Co' : 'My Profile';
