@@ -1,0 +1,662 @@
+{
+  "walkerProfile": {
+    "id": "walker_001",
+    "name": "Ethan Brooks",
+    "avatar": "https://example.com/avatar.jpg",
+    "status": "on_walk",
+    "headline": "Certified Pet Care Professional",
+    "experienceYears": 6,
+    "location": "Downtown Seattle",
+    "rating": {
+      "average": 4.9,
+      "reviewsCount": 287
+    },
+    "stats": {
+      "servicesDone": 1240,
+      "repeatClientsPercent": 83,
+      "onTimePercent": 99.2,
+      "avgWalkMinutes": 47,
+      "responseTime": "< 5 min",
+      "companies": 3
+    },
+    "badges": [
+      "ID Verified",
+      "Background Checked",
+      "Insured",
+      "Pet First Aid",
+      "Top Rated",
+      "Multi-Dog"
+    ],
+    "lastActivity": {
+      "timeAgo": "12 min ago",
+      "description": "Completed walk in Williamsburg"
+    },
+    "pricing": {
+      "walking30min": 28,
+      "walking60min": 44,
+      "petSitting": 35,
+      "homeVisit": 28,
+      "grooming": 45,
+      "extraPet": 10,
+      "currency": "USD"
+    },
+    "ratingsBreakdown": {
+      "reliability": 4.9,
+      "punctuality": 5,
+      "communication": 4.8,
+      "safety": 5,
+      "petCare": 4.9
+    },
+    "serviceArea": {
+      "radiusMiles": 5,
+      "areas": [
+        "Downtown",
+        "Capitol Hill",
+        "Queen Anne"
+      ]
+    },
+    "professional": {
+      "experience": "6 years full-time",
+      "specialties": [
+        "Senior dogs",
+        "Reactive dogs",
+        "Group walks"
+      ],
+      "breeds": [
+        "All breeds",
+        "Puppies",
+        "Large breeds"
+      ],
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "certifications": [
+        "Canine CPR",
+        "Pet First Aid",
+        "Fear-Free"
+      ],
+      "maxDogs": 4,
+      "transport": "Car available for pickups"
+    },
+    "recentServices": [
+      {
+        "id": "service_1",
+        "time": "Yesterday",
+        "pets": 3,
+        "type": "Dog walking",
+        "location": "Williamsburg",
+        "description": "Walk with 2 dogs and 1 cat check-in. Hydration logged, report shared.",
+        "rating": 4.9,
+        "status": "completed"
+      },
+      {
+        "id": "service_2",
+        "time": "2 days ago",
+        "pets": 1,
+        "type": "Home visit",
+        "location": "Park Slope",
+        "description": "Feeding, medication given, litter cleaned. Photo report sent.",
+        "rating": 5,
+        "status": "completed"
+      },
+      {
+        "id": "service_3",
+        "time": "3 days ago",
+        "pets": 2,
+        "type": "Pet sitting",
+        "location": "DUMBO",
+        "description": "Full-day sitting, both dogs walked and fed. Health check completed.",
+        "rating": 4.8,
+        "status": "completed"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "review_1",
+        "author": "Amanda S.",
+        "text": "Always so thorough and sends detailed notes.",
+        "rating": 5,
+        "helpful": 12
+      },
+      {
+        "id": "review_2",
+        "author": "Mark T.",
+        "text": "Handled my anxious rescue with patience.",
+        "rating": 4.8,
+        "helpful": 8
+      }
+    ],
+    "companies": [
+      {
+        "name": "North Lake Vet",
+        "rating": 4.9,
+        "role": "Veterinary Partner"
+      },
+      {
+        "name": "PawWalks Seattle",
+        "rating": 4.8,
+        "role": "Dog Walking"
+      },
+      {
+        "name": "Happy Critters",
+        "rating": 4.6,
+        "role": "Pet Sitting"
+      }
+    ],
+    "media": {
+      "photos": [],
+      "gpsSnapshots": [],
+      "healthReports": []
+    },
+    "booking": {
+      "nextAvailable": "Today, 2:30 PM",
+      "defaultPrice30min": 28,
+      "currency": "USD"
+    }
+  },
+  "trips": [
+    {
+      "id": 1,
+      "title": "Вигуляти Бігля Річі (60 хв)",
+      "ownerName": "Марія",
+      "fromDistrict": "Печерськ",
+      "toDistrict": "Маріїнський парк",
+      "walkTime": "Сьогодні, 18:30",
+      "priceUAH": 350,
+      "notes": "Річі активний, любить біг. Потрібно взяти воду та короткий повідок.",
+      "status": "open"
+    }
+  ],
+  "ownerProfile": {
+    "navbar": {
+      "brand": "PawPals",
+      "links": [
+        "Find Walkers",
+        "Companies",
+        "How It Works",
+        "Safety"
+      ],
+      "searchPlaceholder": "Search...",
+      "login": "Log In",
+      "signup": "Sign Up"
+    },
+    "owner": {
+      "name": "Jessica Palmer",
+      "badge": "Verified Owner",
+      "subtitle": "Pet owner · Brooklyn, NY · Member since 2021",
+      "statsLine": [
+        "3 pets",
+        "127 bookings",
+        "12 walkers used",
+        "4.9 avg given rating"
+      ],
+      "bio": "I love animals and want the best care for my fur family. Always responsive and leave detailed instructions. Happy to accommodate flexible scheduling.",
+      "ctaTitle": "Become a Pet Care Provider",
+      "ctaText": "Enable extended profile to offer services and accept bookings",
+      "trustBadges": [
+        {
+          "id": "verified_identity",
+          "label": "Verified Identity",
+          "tone": "blue",
+          "icon": "shield-check",
+          "iconTone": "accent"
+        },
+        {
+          "id": "payment_verified",
+          "label": "Payment Verified",
+          "tone": "green",
+          "icon": "credit-card",
+          "iconTone": "success"
+        },
+        {
+          "id": "responsive",
+          "label": "Responsive",
+          "tone": "blue",
+          "icon": "message-circle",
+          "iconTone": "accent"
+        },
+        {
+          "id": "clear_instructions",
+          "label": "Clear Instructions",
+          "tone": "blue",
+          "icon": "thumbs-up",
+          "iconTone": "accent"
+        }
+      ],
+      "pets": [
+        {
+          "id": "pet_1",
+          "label": "Luna · Dog"
+        },
+        {
+          "id": "pet_2",
+          "label": "Mochi · Cat"
+        },
+        {
+          "id": "pet_3",
+          "label": "Biscuit · Rabbit"
+        },
+        {
+          "id": "pet_add",
+          "label": "Add Pet",
+          "isAdd": true
+        }
+      ]
+    },
+    "schedule": {
+      "title": "My Schedule",
+      "action": "View Calendar",
+      "upcomingLabel": "Coming Up",
+      "upcoming": [
+        {
+          "id": "up_1",
+          "title": "Walk with Luna",
+          "time": "Tomorrow, 9:00 AM · 60 min",
+          "meta": "Walker: Ethan B.",
+          "kind": "walk",
+          "highlighted": true
+        },
+        {
+          "id": "up_2",
+          "title": "Pet Sitting - Biscuit",
+          "time": "Friday, 2:00 PM · 3 hours",
+          "meta": "Sitter: Sarah M. · Rabbit care",
+          "kind": "sitting"
+        },
+        {
+          "id": "up_3",
+          "title": "Home Visit - Mochi",
+          "time": "Saturday, 11:00 AM · 30 min",
+          "meta": "Vet tech: Dr. Kim · Medication",
+          "kind": "visit"
+        },
+        {
+          "id": "up_4",
+          "title": "Bird Care - Kiwi",
+          "time": "Next Monday, 10:00 AM · At-home",
+          "meta": "Caretaker: Alex T.",
+          "kind": "bird"
+        },
+        {
+          "id": "up_5",
+          "title": "Grooming - Luna",
+          "time": "Next Wednesday, 3:00 PM · 90 min",
+          "meta": "Groomer: PawStyle Studio",
+          "kind": "grooming"
+        }
+      ],
+      "pastLabel": "Past Services",
+      "past": [
+        {
+          "id": "past_1",
+          "title": "Walk with Luna",
+          "meta": "Apr 14 · Completed · Ethan B.",
+          "kind": "walk"
+        },
+        {
+          "id": "past_2",
+          "title": "Sitting - Biscuit",
+          "meta": "Apr 12 · Completed · Sarah M.",
+          "kind": "sitting"
+        },
+        {
+          "id": "past_3",
+          "title": "Grooming - Mochi",
+          "meta": "Apr 10 · Completed · PawStyle Studio",
+          "kind": "grooming"
+        }
+      ]
+    },
+    "reputation": {
+      "title": "Owner Reputation",
+      "score": "4.9",
+      "scoreLabel": "Owner Score",
+      "rows": [
+        {
+          "label": "Response rate",
+          "value": "98%"
+        },
+        {
+          "label": "Cancellation",
+          "value": "0.8%",
+          "good": true
+        },
+        {
+          "label": "Avg rating given",
+          "value": "4.7 / 5"
+        },
+        {
+          "label": "Payment",
+          "value": "Always on time",
+          "good": true
+        }
+      ],
+      "liveStatus": "Luna is being walked now · Ethan B. · GPS active"
+    },
+    "providers": {
+      "title": "Preferred Providers",
+      "items": [
+        {
+          "id": "prov_1",
+          "name": "Ethan Brooks",
+          "meta": "4.9 · 38 bookings together",
+          "action": "Book",
+          "avatarTone": "blue"
+        },
+        {
+          "id": "prov_2",
+          "name": "Sarah Mitchell",
+          "meta": "5.0 · 14 bookings together",
+          "action": "Book",
+          "avatarTone": "green"
+        }
+      ]
+    },
+    "preferences": {
+      "title": "Care Preferences",
+      "items": [
+        {
+          "id": "pref_1",
+          "key": "Preferred times",
+          "value": "Mornings (8–11 AM)",
+          "icon": "clock-4",
+          "iconTone": "accent"
+        },
+        {
+          "id": "pref_2",
+          "key": "Walk type",
+          "value": "Exercise-focused, long route",
+          "icon": "footprints",
+          "iconTone": "accent"
+        },
+        {
+          "id": "pref_3",
+          "key": "Key instructions",
+          "value": "No off-leash, double-check gate",
+          "icon": "triangle-alert",
+          "iconTone": "warning"
+        },
+        {
+          "id": "pref_4",
+          "key": "Pickup location",
+          "value": "Front door, building 4B, code #1234",
+          "icon": "map-pin",
+          "iconTone": "accent"
+        },
+        {
+          "id": "pref_5",
+          "key": "Emergency",
+          "value": "Brooklyn Animal Hospital",
+          "icon": "phone",
+          "iconTone": "danger"
+        }
+      ]
+    },
+    "month": {
+      "title": "This Month",
+      "cards": [
+        {
+          "id": "month_1",
+          "value": "12",
+          "label": "Services",
+          "primary": true
+        },
+        {
+          "id": "month_2",
+          "value": "$340",
+          "label": "Spent",
+          "primary": false
+        },
+        {
+          "id": "month_3",
+          "value": "3",
+          "label": "Providers",
+          "primary": false
+        }
+      ],
+      "nextPayment": "Next payment: Apr 22 · $28"
+    }
+  },
+  "companyProfile": {
+    "id": "company_001",
+    "name": "Brooklyn Paws Co",
+    "badge": "Verified Company",
+    "tagline": "Company-managed pet services across Brooklyn",
+    "summary": {
+      "rating": 4.8,
+      "reviewsCount": 541,
+      "activeProviders": 12,
+      "servicesCompleted": 2140,
+      "areasCount": 12
+    },
+    "highlights": [
+      "Insured",
+      "Background Checked",
+      "24/7 Support"
+    ],
+    "notice": "Company pricing applies to all bookings. Preferred provider can be selected in the booking form.",
+    "noticeMeta": "Services include walking, sitting, daycare, grooming, home visits & more.",
+    "tabs": [
+      "Team",
+      "About",
+      "Services",
+      "Reviews",
+      "Areas"
+    ],
+    "activeTab": "Team",
+    "providersSection": {
+      "title": "Available Providers Today",
+      "updatedAt": "Updated 5 min ago",
+      "providers": [
+        {
+          "id": "prov_1",
+          "name": "Amy M.",
+          "rating": 4.9,
+          "status": "available",
+          "role": "Reactive/Senior Dogs",
+          "time": "10:00-18:00",
+          "areas": [
+            "Park Slope"
+          ],
+          "tags": [
+            "Senior Dogs",
+            "Reactive Dogs"
+          ],
+          "avatarColor": "blue"
+        },
+        {
+          "id": "prov_2",
+          "name": "James R.",
+          "rating": 4.8,
+          "status": "available",
+          "role": "Group Sessions",
+          "time": "11:30-17:00",
+          "areas": [
+            "Williamsburg"
+          ],
+          "tags": [
+            "Group Sessions",
+            "Socialization"
+          ],
+          "avatarColor": "green"
+        },
+        {
+          "id": "prov_3",
+          "name": "Lisa P.",
+          "rating": 5,
+          "status": "limited",
+          "role": "Puppies & Kittens",
+          "time": "12:00-18:00",
+          "areas": [
+            "DUMBO"
+          ],
+          "tags": [
+            "Puppies",
+            "Kittens"
+          ],
+          "avatarColor": "amber"
+        },
+        {
+          "id": "prov_4",
+          "name": "Sara K.",
+          "rating": 4.7,
+          "status": "available",
+          "role": "Senior Pets",
+          "time": "10:00-20:00",
+          "areas": [
+            "Cobble Hill"
+          ],
+          "tags": [
+            "Senior Pets",
+            "Gentle Care"
+          ],
+          "avatarColor": "red"
+        }
+      ],
+      "footerLinks": [
+        "Prefer a specific provider? Select them in the booking form.",
+        "View full roster"
+      ]
+    },
+    "aboutSection": {
+      "title": "About & Guarantee",
+      "description": "Local company since 2019. Every booking is managed by our operations team and matched with trained providers. Whether it's walking, sitting, daycare, grooming, or home visits — if a provider changes, we instantly provide same-level replacement.",
+      "guarantees": [
+        {
+          "id": "g_1",
+          "title": "Service Guarantee",
+          "text": "On-time arrival or credit",
+          "icon": "shield-check"
+        },
+        {
+          "id": "g_2",
+          "title": "Safety Standard",
+          "text": "All providers background-checked",
+          "icon": "heart-pulse"
+        },
+        {
+          "id": "g_3",
+          "title": "Support",
+          "text": "Available 7 days/week",
+          "icon": "headphones"
+        }
+      ],
+      "petsSupportNote": "Supports dogs, cats, rabbits, birds, small pets & exotic pets."
+    },
+    "mediaProof": {
+      "title": "Media Proof",
+      "highlight": "Recent video",
+      "items": [
+        {
+          "id": "m_1",
+          "type": "video",
+          "label": "1.2k views",
+          "thumbnail": "https://images.unsplash.com/photo-1636654581774-82712b59f87b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        },
+        {
+          "id": "m_2",
+          "type": "video",
+          "label": "890 views",
+          "thumbnail": "https://images.unsplash.com/photo-1644088302302-f10d276cac22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        },
+        {
+          "id": "m_3",
+          "type": "video",
+          "label": "2.4k views",
+          "thumbnail": "https://images.unsplash.com/photo-1722553777841-46de7460c9ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        },
+        {
+          "id": "m_4",
+          "type": "video",
+          "label": "560 views",
+          "thumbnail": "https://images.unsplash.com/photo-1770836037816-4445dbd449fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+        }
+      ]
+    },
+    "sidebar": {
+      "pricing": {
+        "title": "Service Pricing",
+        "badge": "Company rates",
+        "rows": [
+          {
+            "label": "30 min session",
+            "price": 24
+          },
+          {
+            "label": "60 min session",
+            "price": 38
+          },
+          {
+            "label": "90 min session",
+            "price": 50
+          },
+          {
+            "label": "Additional pet add-on",
+            "price": 8,
+            "isAddon": true
+          }
+        ],
+        "discounts": [
+          "Recurring -12%",
+          "Urgent +$12",
+          "Holiday +$10"
+        ],
+        "note": "Price set by company, not individual providers."
+      },
+      "booking": {
+        "title": "Book Through Company",
+        "service": "60 min session",
+        "date": "Tue, Apr 22",
+        "preferredProvider": "Preferred walker (optional)",
+        "cta": "Continue Booking",
+        "helpText": "Company confirms assignment and sends provider details instantly."
+      },
+      "areas": {
+        "title": "Areas",
+        "mapLabel": "Downtown East Side Brooklyn",
+        "tags": [
+          "Williamsburg",
+          "DUMBO",
+          "Park Slope",
+          "Cobble Hill"
+        ]
+      },
+      "secondaryReviews": {
+        "title": "Secondary Reviews",
+        "score": 4.8,
+        "total": 5,
+        "distribution": [
+          {
+            "stars": 5,
+            "percent": 68
+          },
+          {
+            "stars": 4,
+            "percent": 22
+          },
+          {
+            "stars": 3,
+            "percent": 7
+          },
+          {
+            "stars": 2,
+            "percent": 2
+          },
+          {
+            "stars": 1,
+            "percent": 1
+          }
+        ],
+        "featuredQuote": "Reliable team and great communication from dispatch. Preferred provider request was handled perfectly — our cat sitter was wonderful.",
+        "author": "Rebecca M.",
+        "authorBadge": "Verified Booking",
+        "link": "Read all reviews"
+      }
+    },
+    "headerActions": {
+      "primary": "Book Through Company",
+      "secondary": "Message Team"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.facts-grid { margin-top: 8px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.fact-row {
+  display: grid;
+  grid-template-columns: 16px 80px 1fr;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background: var(--bg-muted);
+  padding: 8px;
+}
+.fact-row__k { font-size: 11px; color: var(--font-tertiary); }
+.fact-row__v { font-size: 11px; font-weight: 600; }

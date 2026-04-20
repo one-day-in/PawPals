@@ -1,0 +1,358 @@
+@media (max-width: 900px) {
+  .card {
+    border-radius: 8px;
+    padding: 14px;
+  }
+
+  .section-header__title {
+    font-size: 13px;
+  }
+
+  .section-header__link {
+    font-size: 10px;
+  }
+
+  .walker-layout .content-placeholder--right {
+    display: none;
+  }
+
+  .identity {
+    gap: 10px;
+  }
+
+  .identity__avatar {
+    width: 56px;
+    height: 56px;
+  }
+
+  .identity__name {
+    font-size: 16px;
+  }
+
+  .badge-online {
+    padding: 3px 8px;
+    font-size: 9px;
+  }
+
+  .identity__meta,
+  .identity__rating-row {
+    font-size: 11px;
+  }
+
+  .activity-banner {
+    margin-top: 8px;
+    font-size: 9px;
+    height: 24px;
+  }
+
+  .kpi-grid {
+    margin-top: 8px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .kpi {
+    padding: 6px;
+  }
+
+  .kpi__value {
+    font-size: 16px;
+  }
+
+  .kpi__label {
+    font-size: 9px;
+  }
+
+  .pill-list {
+    margin-top: 8px;
+    gap: 6px;
+  }
+
+  .pill {
+    font-size: 9px;
+    padding: 5px 8px;
+  }
+
+  .walk-item {
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .walk-item__thumbs {
+    display: none;
+  }
+
+  .walk-item__title,
+  .walk-item__meta,
+  .walk-item__desc,
+  .walk-item__side {
+    font-size: 10px;
+  }
+
+  .facts-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .service-item {
+    padding: 9px;
+  }
+
+  .service-item__name {
+    font-size: 12px;
+  }
+
+  .service-item__price {
+    font-size: 14px;
+  }
+
+  .company-item {
+    min-height: 48px;
+  }
+
+  .owner-layout {
+    gap: 12px;
+  }
+
+  .owner-mobile-reputation {
+    display: block;
+  }
+
+  .owner-layout .content-placeholder--right .owner-reputation-card,
+  .owner-layout .content-placeholder--right .owner-providers-card,
+  .owner-layout .content-placeholder--right .owner-preferences-card,
+  .owner-layout .content-placeholder--right .owner-month-card {
+    display: none;
+  }
+
+  .owner-main-card {
+    padding: 14px;
+  }
+
+  .owner-head {
+    gap: 10px;
+  }
+
+  .owner-avatar {
+    width: 52px;
+    height: 52px;
+  }
+
+  .owner-name {
+    font-size: 16px;
+  }
+
+  .owner-badge {
+    font-size: 9px;
+  }
+
+  .owner-meta,
+  .owner-chip {
+    font-size: 11px;
+  }
+
+  .owner-cta-pro {
+    padding: 8px 12px;
+  }
+
+  .owner-cta-pro__title {
+    font-size: 12px;
+  }
+
+  .owner-cta-pro__text {
+    font-size: 9px;
+  }
+
+  .owner-trust-item {
+    font-size: 8px;
+  }
+
+  .owner-pet-chip span {
+    font-size: 10px;
+  }
+
+  .owner-schedule-card {
+    padding: 12px;
+  }
+
+  .owner-event,
+  .owner-past-event {
+    padding: 10px;
+  }
+
+  .owner-event__title,
+  .owner-past-event__title {
+    font-size: 12px;
+  }
+
+  .owner-event__time,
+  .owner-event__meta,
+  .owner-past-event__meta {
+    font-size: 10px;
+  }
+
+  .company-page {
+    gap: 12px;
+  }
+
+  .company-identity-card {
+    padding: 14px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .company-logo {
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+  }
+
+  .company-name-row h1 {
+    font-size: 16px;
+  }
+
+  .company-subtitle {
+    font-size: 12px;
+  }
+
+  .company-stats-row {
+    font-size: 10px;
+    gap: 6px;
+  }
+
+  .company-stats-row strong {
+    font-size: 12px;
+  }
+
+  .company-pill {
+    font-size: 9px;
+    padding: 4px 8px;
+  }
+
+  .company-cta-group {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .company-cta-group .btn {
+    flex: 1;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .company-note-card {
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .note-main,
+  .note-side {
+    font-size: 10px;
+  }
+
+  .company-tabs-card {
+    padding: 4px;
+  }
+
+  .company-tab {
+    font-size: 11px;
+    padding: 8px 0;
+  }
+
+  .company-columns {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .company-right-col,
+  .company-left-col {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .company-right-col {
+    order: -1;
+  }
+
+  .company-provider-row {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .avatar {
+    width: 36px;
+    height: 36px;
+  }
+
+  .name-row strong {
+    font-size: 11px;
+  }
+
+  .company-provider-info p,
+  .name-row,
+  .company-provider-right strong,
+  .avail {
+    font-size: 10px;
+  }
+
+  .tag {
+    font-size: 8px;
+    padding: 2px 6px;
+  }
+
+  .price-row span {
+    font-size: 12px;
+  }
+
+  .price-row strong {
+    font-size: 16px;
+  }
+
+  .price-row .small {
+    font-size: 14px;
+  }
+
+  .field {
+    height: 38px;
+    font-size: 12px;
+  }
+
+  .full {
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .media-grid {
+    height: 96px;
+  }
+
+  .area-map {
+    height: 92px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-shell__inner {
+    padding: 0 12px;
+  }
+
+  .m-hide-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 901px) {
+  .owner-mobile-reputation {
+    display: none;
+  }
+}

@@ -1,0 +1,142 @@
+.app-header {
+  height: 52px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.app-header__inner {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.app-header__mobile { display: none; }
+
+.app-header__logo { font-size: 18px; font-weight: 700; color: var(--blue-600); }
+.app-header__nav { display: flex; gap: 24px; }
+.app-header__nav-item {
+  border: 0;
+  background: transparent;
+  color: var(--font-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0;
+  cursor: pointer;
+}
+
+.app-header__nav-item.is-active {
+  color: var(--blue-600);
+  font-weight: 600;
+}
+.app-header__spacer { flex: 1; }
+
+.app-header__actions { display: flex; align-items: center; gap: 12px; }
+
+.app-header__search-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: 200px;
+  height: 32px;
+  border-radius: 6px;
+  background: var(--bg-page);
+  padding: 0 10px;
+  color: var(--dark-400);
+  font-size: 12px;
+}
+.app-header__search-icon { color: var(--dark-400); }
+.app-header__search {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--dark-400);
+  font-size: 12px;
+}
+
+.app-header__auth,
+.app-header__signup {
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.app-header__auth { background: transparent; color: var(--font-secondary); font-weight: 500; }
+.app-header__signup { background: var(--blue-600); color: var(--white); font-weight: 600; }
+
+@media (max-width: 900px) {
+  .app-header { height: 48px; }
+
+  .app-header__inner {
+    height: 48px;
+    gap: 0;
+    padding: 0 16px;
+  }
+
+  .app-header__mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .app-header__mobile--company {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    gap: 8px;
+  }
+
+  .app-header__mobile-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .app-header__mobile--company .app-header__mobile-title {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .app-header__mobile-actions {
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .app-header__mobile--company .app-header__mobile-actions {
+    margin-left: 0;
+    min-width: 44px;
+    justify-content: flex-end;
+  }
+
+  .app-header__mobile-btn {
+    width: 28px;
+    height: 28px;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .app-header__mobile-link {
+    border: 0;
+    background: transparent;
+    color: var(--blue-600);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 2px;
+    cursor: pointer;
+  }
+
+  .app-header__brand,
+  .app-header__nav,
+  .app-header__spacer,
+  .app-header__actions {
+    display: none;
+  }
+}

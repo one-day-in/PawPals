@@ -1,0 +1,48 @@
+:root {
+  --bg-page: #f0f2f5;
+  --bg-card: #ffffff;
+  --bg-muted: #f9fafb;
+  --border-light: #e5e7eb;
+  --blue-600: #1a73e8;
+  --blue-400: #4a9aff;
+  --blue-100: #e8f0fe;
+  --blue-50: #f0f6ff;
+  --green-100: #dcfce7;
+  --green-500: #22c55e;
+  --green-600: #16a34a;
+  --green-700: #15803d;
+  --amber-100: #fef3c7;
+  --amber-500: #f59e0b;
+  --red-100: #fee2e2;
+  --red-500: #ef4444;
+  --purple-500: #8b5cf6;
+  --pink-500: #ec4899;
+  --orange-50: #fff7ed;
+  --orange-900: #9a3412;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --overlay-dark-66: rgb(0 0 0 / 66%);
+  --white-80: rgb(255 255 255 / 80%);
+  --white-20: rgb(255 255 255 / 20%);
+  --blue-gray-track: #eef2f7;
+  --avatar-gradient-start: #e8f0fe;
+  --avatar-gradient-end: #bfdbfe;
+  --avatar-gradient-walker-start: #dbeafe;
+  --avatar-gradient-walker-end: #bfdbfe;
+  --font-primary: #111827;
+  --font-secondary: #4b5563;
+  --font-tertiary: #6b7280;
+  --dark-400: #9ca3af;
+  --white: #ffffff;
+  --white-96: rgb(255 255 255 / 96%);
+  --icon-default: var(--blue-600);
+  --icon-accent: var(--blue-600);
+  --icon-success: var(--green-500);
+  --icon-warning: var(--amber-500);
+  --icon-muted: var(--dark-400);
+  --icon-danger: var(--red-500);
+
+  --layout-max: 1440px;
+  --body-max: 1060px;
+}

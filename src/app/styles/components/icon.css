@@ -1,0 +1,27 @@
+.icon {
+  color: var(--icon-default);
+}
+
+.icon--default {
+  color: var(--icon-default);
+}
+
+.icon--accent {
+  color: var(--icon-accent);
+}
+
+.icon--success {
+  color: var(--icon-success);
+}
+
+.icon--warning {
+  color: var(--icon-warning);
+}
+
+.icon--muted {
+  color: var(--icon-muted);
+}
+
+.icon--danger {
+  color: var(--icon-danger);
+}

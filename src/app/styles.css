@@ -1,0 +1,14 @@
+@import './styles/tokens.css';
+@import './styles/base.css';
+@import './styles/layout.css';
+@import './styles/header.css';
+@import './styles/page-switcher.css';
+@import './styles/components.css';
+@import './styles/sections/walker-summary.css';
+@import './styles/sections/recent-history.css';
+@import './styles/sections/professional-facts.css';
+@import './styles/sections/walker-extra.css';
+@import './styles/sections/sidebar.css';
+@import './styles/sections/owner-profile.css';
+@import './styles/sections/company-profile.css';
+@import './styles/mobile.css';
