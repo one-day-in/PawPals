@@ -1,0 +1,1 @@
+import{o as e,s as t}from"./styles-DHXemZfu.js";var n=e(),r=({variant:e=`primary`,fullWidth:r=!1,className:i,...a})=>(0,n.jsx)(`button`,{className:t(`btn`,`btn--${e}`,r&&`btn--full`,i),...a});export{r as t};
